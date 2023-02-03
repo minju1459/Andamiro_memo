@@ -11,15 +11,15 @@
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="너의 행복지수는\n지금 어때?"
+      android:text="너의 행복 지수는\n지금 어때?"
       android:textColor="@color/white"
       android:textSize="25sp"
       android:gravity="center"
+      android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent">
-
   </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
