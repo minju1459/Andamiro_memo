@@ -64,7 +64,9 @@ class MainActivity : AppCompatActivity() {
                 val database = Firebase.database
                 val myRef = database.getReference("myMemo")
 
-                myRef.setValue("Hello, World!")
+                myRef
+                    .push()
+                    .setValue(model)
             }
 
         }
